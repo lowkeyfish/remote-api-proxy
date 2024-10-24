@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
-public class SpringbootApiApplication {
+public class RemoteApiProxyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootApiApplication.class, args);
+		SpringApplication.run(RemoteApiProxyApplication.class, args);
 	}
 
 }

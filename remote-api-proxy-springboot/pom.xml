@@ -11,8 +11,8 @@
 	<groupId>com.yujunyang</groupId>
 	<artifactId>remote-api-proxy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-api</name>
-	<description>springboot-api</description>
+	<name>remote-api-proxy-springboot</name>
+	<description>remote-api-proxy-springboot</description>
 	<url/>
 	<licenses>
 		<license/>
