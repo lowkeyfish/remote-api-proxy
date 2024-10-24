@@ -28,6 +28,10 @@ public class AppResponse<T> {
         this.code = 0;
     }
 
+    public AppResponse() {
+        this.code = 0;
+    }
+
     public int getCode() {
         return code;
     }

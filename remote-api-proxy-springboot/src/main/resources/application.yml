@@ -1,6 +1,12 @@
+RAP_DB_TYPE: h2
+RAP_DB_URL: jdbc:h2:file:./database/rap.db
+
 spring:
   application:
-    name: springboot-api
-
+    name: remote-api-proxy-springboot
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:${RAP_DB_TYPE}-schema.sql
 server:
   port: 5002
